@@ -1,4 +1,4 @@
-package se.cloudcharge.service;
+package se.company.service;
 
 import com.netflix.appinfo.ApplicationInfoManager;
 import com.netflix.appinfo.HealthCheckHandler;

@@ -1,8 +1,8 @@
-package se.cloudcharge.controller;
+package se.company.controller;
 
 import com.netflix.appinfo.InstanceInfo;
 import org.springframework.web.bind.annotation.*;
-import se.cloudcharge.service.InstanceRegistrationService;
+import se.company.service.InstanceRegistrationService;
 
 @RestController
 @RequestMapping("registration")

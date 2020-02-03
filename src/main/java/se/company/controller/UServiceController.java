@@ -1,4 +1,4 @@
-package se.cloudcharge.controller;
+package se.company.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;

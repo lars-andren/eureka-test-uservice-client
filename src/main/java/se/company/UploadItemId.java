@@ -1,4 +1,4 @@
-package se.cloudcharge;
+package se.company;
 
 import org.springframework.stereotype.Component;
 
