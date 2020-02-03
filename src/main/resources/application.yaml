@@ -1,0 +1,26 @@
+server:
+  port: 9100    #port number
+
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/
+    healthcheck:
+      enabled: true
+    lease:
+      duration: 5
+
+spring:
+ # application:
+ #   name: smarteruservice    #service name
+  cloud:
+    service-registry:
+      auto-registration:
+        enabled: false
+
+logging:
+  level:
+    com.example.howtodoinjava: DEBUG
